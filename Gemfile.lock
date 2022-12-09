@@ -30,8 +30,7 @@ GEM
     tilt (2.0.11)
 
 PLATFORMS
-  arm64-darwin-21
-  ruby File.read(".ruby-unknown
+  ruby 
 
 DEPENDENCIES
   rack (~> 2.2)
