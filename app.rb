@@ -1,7 +1,6 @@
 require 'bundler/setup'
 require 'sinatra'
 
-set :port, 5500
 
 get '/' do
     erb :index
