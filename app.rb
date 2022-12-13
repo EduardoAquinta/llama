@@ -1,9 +1,10 @@
 require 'bundler/setup'
 require 'sinatra'
 
+$data = ["dave", "david", "davos", "davina"]
 
 get '/' do
-    erb :index
+    erb :index, {locals: {name: $data}}
 end
 
 get '/pics' do

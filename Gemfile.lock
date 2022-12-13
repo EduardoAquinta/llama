@@ -30,7 +30,8 @@ GEM
     tilt (2.0.11)
 
 PLATFORMS
-  ruby 
+  arm64-darwin-21
+  unknown
 
 DEPENDENCIES
   rack (~> 2.2)
@@ -40,4 +41,3 @@ DEPENDENCIES
 
 BUNDLED WITH
    2.3.26
-

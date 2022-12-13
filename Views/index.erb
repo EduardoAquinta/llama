@@ -71,6 +71,25 @@
     <p></p>
     <img src="https://apilgriminnarnia.files.wordpress.com/2016/11/monty-python-political-peasants.jpg?w=640">
     </main>
+    <table class="govuk-table">
+  <caption class="govuk-table__caption govuk-table__caption--m"><%=name%></caption>
+  <thead class="govuk-table__head">
+    <tr class="govuk-table__row">
+      <th scope="col" class="govuk-table__header">Name</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Height</th>
+      <th scope="col" class="govuk-table__header govuk-table__header--numeric">Type</th>
+    </tr>
+  </thead>
+  <tbody class="govuk-table__body">
+  <% name.each do |element|%>
+    <tr class="govuk-table__row">
+      <th scope="row" class="govuk-table__header"><%=element%></th>
+      <td class="govuk-table__cell govuk-table__cell--numeric">18m</td>
+      <td class="govuk-table__cell govuk-table__cell--numeric">Residential</td>
+    </tr>
+    <%end%>
+  </tbody>
+</table>
   </div>
 
   <footer class="govuk-footer " role="contentinfo">
